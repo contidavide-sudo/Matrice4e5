@@ -22,10 +22,9 @@
             {
                 for (int j = 0; j < m.GetLength(1); j++)
                 {
-                    if (m.GetLength(0) == m1.GetLength(1))
-                    {
-                        m1[j, i] = m[i, j];
-                    }
+                    
+                   m1[j, i] = m[i, j];
+                    
                 }
 
             }
